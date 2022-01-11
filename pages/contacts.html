@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contacts</title>
+  </head>
+  <body>
+    <h1>site de cours particuliers</h1>
+      <nav>
+          <ul>
+            <li><a href="../index.html">acceuil</a></li>
+            <li><a href="page1.html">nos cours</a></li>
+            <li><a href="Tarifs.html">tarifs</a></li>
+            <li><a href="#">contacts</a></li>
+            <li><a href="oùNousTrouver.html">où nous trouver</a></li>
+        </ul>
+    </nav>
+
+      <fieldset>
+          <legend><h2>formulaire de contact</h2></legend>
+    <form name="inscription" method="post" action="">
+        <div class="champ">
+            civilité :<br>
+            <select name="civilité" id="civilité">
+                <option value="monsieur">monsieur</option>
+                <option value="madame">madame</option>
+                <option value="mademoiselle">mademoiselle</option>
+            </select>
+        </div>
+        <div class="champ">
+         sexe :<br>
+            <input type="radio" name="sexe"> femme <br>
+            <input type="radio" name="sexe"> homme <br>
+            <input type="radio" name="sexe" checked> non précisé <br>
+        </div>
+        <div class="champ">
+            <label for="pseudo">nom : </label><br>
+            <input type="text" id="nom" name="nom">
+        </div>
+        <div class="champ">
+            <label for="prénom">prénom : </label><br>
+            <input type="text" id="prénom" name="prénom">
+        </div>
+        <div class="champ">
+            <label for="ville">ville : </label><br>
+            <input type="text" id="ville name="ville">
+        </div>
+        <div class="champ">
+            <label for="téléphone">numéro de téléphone : </label><br>
+            <input type="text" id="téléphone" name="téléphone">
+        </div>
+        <div class="champ">
+            <label for="mail">entrer un mail : </label><br>
+            <input type="email" id="mail" name="mail">
+        </div>
+        <div class="champ"><br>votre message <br>
+            <textarea name="commentaire" id="comment" cols="20" rows="2"></textarea>
+        </div>
+        <div class="champ"><br>
+            <input type="checkbox" checked> j'accepte que mes données soit communiqué aux partenaires de l'entreprise
+        </div>
+        <div class="champ"><br>
+            <input type="submit" value="envoyer">
+        </div>
+    </form>
+</fieldset>
+  </body>
+</html>
